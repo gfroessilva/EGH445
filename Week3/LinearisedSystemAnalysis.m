@@ -7,6 +7,7 @@
 % (input) system.
 
 clear all; close all; clc
+addpath('PhasePlot')
 
 %% System and Simulation Parameters
 global m b l g
