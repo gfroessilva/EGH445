@@ -1,12 +1,10 @@
 %% EGH445 - Modern Control
 %--------------------------------------------------------------------------
-% Digital Control
-% ****Support Functions
-%     ****Matrix Exponential Approximation (nth order)
+% Modern Control
+% **** Support Functions
+%     **** Matrix Exp Approximation
 %
-% Author:   Dr Aaron McFadyen
-% Created:  August 2018
-% Modified: August 2018
+% Author: Aaron McFadyen
 %--------------------------------------------------------------------------
 
 
