@@ -1,6 +1,6 @@
 %% EGH445 - Modern Control
 %--------------------------------------------------------------------------
-% ModernControl
+% Digital Control
 % **** Main Functions
 %     **** Discretisation
 %
