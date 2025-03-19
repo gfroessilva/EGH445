@@ -35,8 +35,8 @@ E           = eig(Gs);
 
 %-------------------- Find Discrete Plant and Input Matrices --------------
 % Approximate Plant and Input Matrices (Mat Exp nth Order)
-G1 = ApproxMatExp(A, T1, m, 1)                 % Plant (D/z) - Approximate Calculation (3rd Order)
-H1 = inv(A)*(G1 - eye(size(G1)))*B      	% Plant (D/z) - Approximate Calculation (3rd Order)
+[G1, H1s] = ApproxMatExp(A, B, T1, m, 1)    % Plant (D/z) - Approximate Calculation (3rd Order)
+H1 = inv(A)*(G1 - eye(size(G1)))*B      	% Plant (D/z) - Approximate Calculation (3rd Order, via inverse A)
 E1 = eig(G1);
 
 % Exact Plant and Input Matrices (Laplace)
